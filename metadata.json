@@ -1,10 +1,10 @@
 {
-  "description": "Do not allow apps to delete their own notifications (e.g. web skype does that)",
-  "name": "Grown-up notifications",
+  "description": "Do not allow apps to delete their own notifications (e.g. web skype does that)", 
+  "name": "Grown-up notifications", 
   "shell-version": [
-    "3.26"
-  ],
-  "url": "https://github.com/jimmytheneutrino/grownup_notifications",
-  "uuid": "grownup_notifications@11.2017.jimmytheneutrino",
-  "version": 1
+    "46"
+  ], 
+  "url": "https://github.com/AyhamAl-Ali/grownup_notifications", 
+  "uuid": "grownup_notifications@08.2024.ayhamalali", 
+  "version": 2
 }
