@@ -4,9 +4,11 @@ import { Extension } from 'resource:///org/gnome/shell/extensions/extension.js';
 let oldDestroy;
 
 function _destroy(reason) {
-    if (reason != MessageTray.NotificationDestroyedReason.SOURCE_CLOSED) {
+    if (reason && reason != MessageTray.NotificationDestroyedReason.SOURCE_CLOSED) {
         console.log("Destroying notification for reason: " + reason);
         oldDestroy.call(this);
+    } else {
+        console.log("Ignoring notification destroy for reason: " + reason);
     }
 }
 
